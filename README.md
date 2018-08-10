@@ -1,6 +1,6 @@
-# Sprit Website Next
+# Operation: Lightning
 
-Introducing _Operation: Lightning_!
+Introducing a new challenge: _Operation: Lightning_!
 
 ## Mission Statement
 Build a lightning-fast, static version of our current webpage that can be deployed to S3/Cloudfront in a matter of seconds.
