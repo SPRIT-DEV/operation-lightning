@@ -1,0 +1,19 @@
+{
+  "name": "sprit-website-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "node_module": "0.0.0",
+    "purecss": "^1.0.0"
+  }
+}
