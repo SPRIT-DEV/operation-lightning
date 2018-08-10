@@ -1,4 +1,4 @@
-# Operation: Lightning
+# Operation: Lightning ⚡
 
 Introducing a new challenge: _Operation: Lightning_!
 
