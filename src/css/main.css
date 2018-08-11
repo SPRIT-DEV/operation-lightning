@@ -2,10 +2,19 @@
 
 body {
   background: #121212;
+  font-size: 16px;
 }
 
 .logo {
   width: 70%;
+}
+
+.content {
+  padding: 10px;
+}
+
+.content-customers {
+  background: #121212;
 }
 
 .splash-container {
@@ -38,3 +47,43 @@ body {
   background: #FAFAFA;
 }
 
+.customers .image-row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.customers .image-row .image-container {
+  background: #333333;
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+}
+
+
+.contacts {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.contact {
+  height: 100px;
+  width: 100px;
+  background: #121212;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.sub-division .sub-division-inner {
+  margin: 10px;
+}
+
+.sub-division-inner .image-container {
+  padding-bottom: 70%;
+  background: #333333;
+  width: 100%;
+}
