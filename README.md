@@ -35,3 +35,7 @@ Build a lightning-fast, static version of our current webpage that can be deploy
 ## Usage
 - `npm start`: Starts your development environment with hot module replacement
 - `npm run build`: Builds all files needed for deployment and puts them in `./dist`
+
+## Deployment
+Push to master will result in an automatic deployment to S3.
+The live site is available at [https://sprit.cloud]()
