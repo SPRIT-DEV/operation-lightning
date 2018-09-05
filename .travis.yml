@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- '8'
+deploy:
+  skip_cleanup: true
+script: npm run build
+deploy:
+  deploy:
+  provider: s3
+  access_key_id: "AKIAJ3XGUGQCE4SOJ3OA"
+  secret_access_key: "h8B/yip6b9RQGfprA5vBXyHH01jn3MENrJSr203Z0e/q2R198dX+mHckat/yY5Fc8iPOCXpuTu8qVillLXDXJYoSE3gKrcHfwZuEdhEOQk0TaTvqMND3sRSlnJPJzHiWsOXdHyDlE1WBKDjb5PrYOV35oMKlU+D/RReop/Cxa7AY5OMWHfAtXZ+ykw3VY4H0LOCsMIBAkhtfJw2V2adGMmlSQdZfcCW3GbeqD1LLQhu/EdS0dT57/EusvRRhyM5TaQ3aJsZueN1WVypuNpbUW4X4ruQWXpCffB7u2SZA4kXVOPygHEb0jnlJahkNnVuTCMPc/3wJOi5Y7kChfMhN2sWpRS2dPN0+1wnZdGu6EMm8UeDlo8QsxSfplfvytUC06cKfDJAzUUYEYuM89dWEt0hYXdJQRQJKNAIe7XOOmEIDPM0YFajkjUMLOoN79VJ6RFNTkAVRnOeQAsqla+/zJ376curQkwPGdO1H/e2NTVLjY4+MM9b3q7l3EyrHV34SYukPKJiMNghBt4dv19uFTeNosV2mN2cM31xLahPoc5G0uOJBpS23wsVepWPmtP/Z+5IaYJTWLchanP8vWMsnGEMiWh/WIdqSll32x03WZ2Dbotzw1OzxI9giOAEggu3Tkmljgl4m/uwWcTPHzyV8VRQns+BcoIw55lck7FwXMZU="
+  bucket: "sprit.cloud"
+  skip_cleanup: true
+  acl: public_read
+  region: eu-west-1
+  local_dir: dist
+  detect_encoding: true

@@ -2,6 +2,8 @@
 
 Introducing a new challenge: _Operation: Lightning_!
 
+[![Build Status](https://travis-ci.org/SPRIT-DEV/operation-lightning.svg?branch=master)](https://travis-ci.org/SPRIT-DEV/operation-lightning)
+
 ## Mission Statement
 Build a lightning-fast, static version of our current webpage that can be deployed to S3/Cloudfront in a matter of seconds.
 
