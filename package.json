@@ -2,20 +2,24 @@
   "name": "sprit-website-next",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel index.html --no-source-maps",
+    "build": "parcel build index.html --no-source-maps",
+    "lint": "eslint src"
   },
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
     "parcel-bundler": "^1.9.7",
     "parcel-plugin-imagemin": "^2.1.1"
   },
   "dependencies": {
     "node-sass": "^4.9.3",
-    "node_module": "0.0.0",
     "purecss": "^1.0.0"
   }
 }

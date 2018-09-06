@@ -1,9 +1,5 @@
 @import url(../../node_modules/purecss/build/pure-min.css);
-
-body {
-  background: #121212;
-  font-size: 16px;
-}
+@import "default";
 
 .separator {
   display: inline-block;
@@ -147,6 +143,23 @@ body {
         margin: 0 1rem;
       }
     }
+  }
+}
+
+#slide-out-container {
+  width: 200px;
+  background: #121212;
+  color: #FFFFFF;
+  position: fixed;
+  right: -240px;
+  bottom: 20%;
+  z-index: 100;
+  padding: 20px;
+  transition: right 200ms cubic-bezier(0.65, 0.05, 0.36, 1);
+  transform: translateZ(0);
+
+  &.visible {
+    right: 0;
   }
 }
 
