@@ -19,6 +19,7 @@
     "parcel-plugin-imagemin": "^2.1.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
     "node-sass": "^4.9.3",
     "purecss": "^1.0.0"
   }

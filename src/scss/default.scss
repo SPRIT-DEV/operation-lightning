@@ -2,13 +2,43 @@ body {
   background: #121212;
   font-size: 16px;
   overflow-x: hidden;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+strong {
+  font-weight: 900;
 }
 
 a, a:active, a:focus, a:visited {
-  color: #FFFFFF;
+  color: #121212;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FAFAFA;
+  color: #232323;
 }
