@@ -1,4 +1,5 @@
 @import url(../../node_modules/purecss/build/pure-min.css);
+
 @import url(../../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
 
 @import 'fonts';
@@ -85,19 +86,93 @@
 
   .content-contacts {
     .contacts {
-      flex: 1;
       display: flex;
-      flex-direction: row;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
       justify-content: center;
-      padding-top: 6rem;
-      padding-bottom: 6rem;
 
       .contact {
-        height: 100px;
-        width: 100px;
-        background: #121212;
-        margin: 10px;
-        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(20% - 2rem);
+        max-width: 250px;
+        margin: 0 1rem;
+        border: 1px solid #DDDDDD;
+        position: relative;
+
+        &:before {
+          content: '';
+          width: 100%;
+          border-bottom: 1px solid #DDDDDD;
+          position: absolute;
+          top: calc((100px / 2) + 1rem);
+        }
+
+        .image {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          margin-top: 1rem;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          z-index: 2;
+          position: relative;
+
+          &.ch {
+            background-image: url('../images/employees/ch.png');
+          }
+
+          &.ci {
+            background-image: url('../images/employees/ci.png');
+          }
+
+          &.jh {
+            background-image: url('../images/employees/jh.png');
+          }
+
+          &.mr {
+            background-image: url('../images/employees/mr.png');
+          }
+
+          &.jp {
+            background-image: url('../images/employees/jp.png');
+          }
+        }
+
+        h6 {
+          margin-bottom: .25rem;
+        }
+
+        .mail-phone-wrapper {
+          display: flex;
+          justify-content: center;
+          margin-top: 1.2rem;
+          margin-bottom: .8rem;
+
+          .mail,
+          .phone {
+            cursor: pointer;
+            display: flex;
+            width: 30px;
+            height: 30px;
+            color: #DDDDDD;
+            margin: 0 .5rem;
+            border-radius: 50%;
+            border: 2px solid #DDDDDD;
+            justify-content: center;
+            align-items: center;
+            transition: all 150ms ease-in-out;
+
+            &:hover {
+              cursor: pointer;
+              color: #333333;
+              border-color: #333333;
+              transition: all 150ms ease-in-out;
+            }
+          }
+        }
       }
     }
   }
