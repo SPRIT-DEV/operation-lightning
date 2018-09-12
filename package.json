@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel index.html --no-source-maps",
+    "start": "parcel index.html --no-source-maps -p 8081 --hmr-port 8082",
     "build": "parcel build index.html --no-source-maps",
     "lint": "eslint src"
   },
