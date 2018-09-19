@@ -1,5 +1,4 @@
 @import url(../../node_modules/purecss/build/pure-min.css);
-
 @import url(../../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
 
 @import 'fonts';
@@ -77,6 +76,10 @@
   .sub-division {
     .sub-division-inner {
       margin: 10px;
+
+      h4 {
+        color: #333333;
+      }
 
       .image-container {
         padding-bottom: 70%;

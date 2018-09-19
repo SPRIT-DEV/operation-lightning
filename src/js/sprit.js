@@ -14,3 +14,11 @@ const loop = () => {
 };
 
 window.setInterval(loop, 100);
+
+// Register the service worker
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    const swPath = 'service-worker.js';
+    navigator.serviceWorker.register(swPath);
+  });
+}
